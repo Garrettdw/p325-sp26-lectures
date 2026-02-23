@@ -10,7 +10,7 @@ def trapezint(func, a, b):
         func (Callable): the function to integrate
         a (float): lower limit of integration
         b (float): upper limit of integration
-    
+        n (int): number of trapezoids
     Returns:
         The approximation of the integral (float)
     """
